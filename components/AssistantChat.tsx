@@ -11,7 +11,7 @@ import { PiSpinnerGapBold } from "react-icons/pi"; // For loading indicators
 const availableAssistants = [
   {
     id: process.env.ASSISTANT_ID,
-    name: "TRON (Camper)",
+    name: "TRON (Camper Assistant)",
   }, // Use env var for default
   // { id: "asst_YourCamperAssistantId", name: "Camper Specialist" },
   // { id: "asst_YourTroubleshootingId", name: "Troubleshooting Bot" },

@@ -46,38 +46,14 @@ export default function AssistantChat() {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen w-screen bg-gray-100 lg:p-8">
+    <div className="flex justify-center items-center min-h-screen w-screen bg-gray-100 lg:p-8 mx-0">
       {" "}
       {/* Optional: Adds padding and a background on large screens */}
       {/* Chat Component Container */}
-      <div
-        className="flex flex-col
-    w-full h-screen                     
-    bg-brand-surface                   
-    shadow-lg                           
-
-    lg:max-w-5xl                        
-    lg:h-[calc(100vh-4rem)]             
-    lg:rounded-lg                        
-    lg:border lg:border-brand-sage      
-    overflow-hidden"
-      >
+      <div className="flex flex-col w-screen h-screen bg-brand-surface shadow-lg mx-0 lg:max-w-5xl lg:h-[calc(100vh-4rem)] lg:rounded-lg lg:border lg:border-brand-sage overflow-hidden">
         <div className="flex justify-center items-center min-h-screen w-screen bg-gray-100 lg:p-8">
           {/* Chat Component Container */}
-          <div
-            className="
-        flex flex-col
-        w-full h-screen                      {/* Mobile: Full width and height */}
-        bg-brand-surface
-        shadow-lg
-
-        lg:max-w-5xl                         {/* Desktop: Max width */}
-        lg:h-[calc(100vh-4rem)]              {/* Desktop: Reduced height */}
-        lg:rounded-lg
-        lg:border lg:border-brand-sage
-        overflow-hidden                      {/* Crucial to contain children */}
-      "
-          >
+          <div className="flex flex-col w-screen h-screen bg-brand-surface shadow-lg lg:max-w-5xl lg:h-[calc(100vh-4rem)] lg:rounded-lg lg:border lg:border-brand-sage overflow-hidden">
             {/* Header */}
             <header className="bg-brand-altsurface p-4 border-b text-cyan-300 border-brand-sage shadow-sm shrink-0">
               <h1 className="text-xl font-semibold text-cyan-300">

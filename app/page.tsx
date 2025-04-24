@@ -3,9 +3,5 @@ import AssistantChat from "@/components/AssistantChat";
 import Image from "next/image";
 
 export default function Home() {
-  return (
-    <div>
-      <AssistantChat />
-    </div>
-  );
+  return <AssistantChat />;
 }

@@ -56,9 +56,6 @@ export const authOptions: NextAuthOptions = {
     // strategy: "database", // Or switch to database sessions if needed
     maxAge: 60 * 60 * 24 * 7 * 30, // 30 days
   },
-  pages: {
-    signIn: "/login",
-  },
   callbacks: {
     // JWT callback to include user ID in the token
     async jwt({ token, user, account, profile }) {

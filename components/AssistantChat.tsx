@@ -21,6 +21,10 @@ const availableAssistants = [
     id: process.env.STORY_ASSISTANT_ID,
     name: "TRON (Story Assistant)",
   },
+  {
+    id: process.env.CODING_ASSISTANT_ID,
+    name: "TRON (Coding Assistant)",
+  },
   // Use env var for default
   // { id: "asst_YourCamperAssistantId", name: "Camper Specialist" },
   // { id: "asst_YourTroubleshootingId", name: "Troubleshooting Bot" },
